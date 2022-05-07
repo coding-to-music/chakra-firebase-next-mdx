@@ -1,5 +1,5 @@
 {
-  "name": "benjamincarlson.io",
+  "name": "chakra-firebase-next-mdx",
   "version": "2.0.0",
   "author": {
     "name": "Benjamin Carlson",
@@ -11,10 +11,18 @@
     "type": "git",
     "url": "git+https://github.com/bjcarlson42/benjamincarlson.io.git"
   },
+  "engines": {
+    "node": "14"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    ".next/cache"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "git add . && git commit -m Build && git push"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.1",

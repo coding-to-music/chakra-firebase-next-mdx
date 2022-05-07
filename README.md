@@ -1,3 +1,61 @@
+# chakra-firebase-next-mdx
+
+# 🚀 Javascript full-stack 🚀
+
+https://github.com/coding-to-music/chakra-firebase-next-mdx
+
+https://chakra-firebase-next-mdx.vercel.app
+
+by Benjamin Carlson https://github.com/bjcarlson42
+
+https://www.benjamincarlson.io
+
+https://github.com/bjcarlson42/benjamincarlson.io
+
+## Environment Values
+
+```java
+        client_id: process.env.STRAVA_CLIENT_ID,
+        client_secret: process.env.STRAVA_SECRET,
+        refresh_token: process.env.STRAVA_REFRESH_TOKEN,
+
+        "Authorization": "Token " + process.env.GITHUB_KEY
+    // followers
+    let url = "https://api.github.com/users/XXXXXXX/followers?per_page=100&page=1" // each page has 100 followers
+
+    const url = "https://api.github.com/users/xxxxxxxxx/repos"
+
+    var key = process.env.YOUTUBE_KEY
+    const response = await fetch('https://www.googleapis.com/youtube/v3/channels?part=statistics&id=xxxxxxxxxxxx&key=' + key)
+
+
+const admin = require('firebase-admin')
+const firebasePrivateKey = process.env.FIREBASE_PRIVATE_KEY
+
+try {
+    admin.initializeApp({
+        credential: admin.credential.cert({
+            client_email: process.env.FIREBASE_CLIENT_EMAIL,
+            privateKey: firebasePrivateKey.replace(/\\n/g, '\n'),
+            project_id: process.env.FIREBASE_PROJECT_ID
+        }),
+        databaseURL: 'https://personal-website-XXXXXXX.firebaseio.com'
+
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/chakra-firebase-next-mdx.git
+git push -u origin main
+vercel --prod --confirm 
+```
+
 <div align="center">
   <h1>benjamincarlson.io</h1>
   <img src="public/home_screen_light.png" height="200px"></img>
