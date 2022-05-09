@@ -14,6 +14,8 @@ https://github.com/bjcarlson42/benjamincarlson.io
 
 ## Environment Values
 
+vercel add env
+
 ```java
         client_id: process.env.STRAVA_CLIENT_ID,
         client_secret: process.env.STRAVA_SECRET,
@@ -53,7 +55,7 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:coding-to-music/chakra-firebase-next-mdx.git
 git push -u origin main
-vercel --prod --confirm 
+vercel --prod --confirm
 ```
 
 <div align="center">
@@ -90,7 +92,7 @@ git clone https://github.com/bjcarlson42/benjamincarlson.io.git .
 touch .env
 ```
 
-Inside ```.env```:
+Inside `.env`:
 
 ```
 YOUTUBE_KEY=
