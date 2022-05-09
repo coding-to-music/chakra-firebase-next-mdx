@@ -55,7 +55,7 @@ const Projects = () => {
               worked on many projects over the years. If you enjoy or use any of
               these projects, please consider{" "}
               <Link
-                href="https://github.com/sponsors/bjcarlson42"
+                href="https://github.com/sponsors/coding-to-music"
                 isExternal
                 color="blue.500"
               >

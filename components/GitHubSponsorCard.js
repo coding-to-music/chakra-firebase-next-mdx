@@ -51,8 +51,8 @@ const GitHubSponsorCard = () => {
           </Flex>
           <Flex mt={[2, 0, 0]}>
             <iframe
-              src="https://github.com/sponsors/bjcarlson42/button"
-              title="Sponsor bjcarlson42"
+              src="https://github.com/sponsors/coding-to-music/button"
+              title="Sponsor coding-to-music"
               height="35"
               width="116"
               style={{ border: "0" }}

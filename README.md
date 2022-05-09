@@ -60,6 +60,16 @@ GA_TRACKING_ID=""
         async
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
 
+Blog Comments
+componentDidMount() {
+    let scriptEl = document.createElement("script");
+    scriptEl.setAttribute("src", "https://giscus.app/client.js");
+    scriptEl.setAttribute("data-repo", "bjcarlson42/benjamincarlson.io");
+    scriptEl.setAttribute("data-repo-id", "MDEwOlJlcG9zaXRvcnkyNzI4MTAyMzA");
+    scriptEl.setAttribute("data-category", "General");
+    scriptEl.setAttribute("data-category-id", "MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyMDA3MjQ5");
+
+
 
 ```
 
