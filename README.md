@@ -17,19 +17,26 @@ https://github.com/bjcarlson42/benjamincarlson.io
 vercel add env
 
 ```java
-        client_id: process.env.STRAVA_CLIENT_ID,
-        client_secret: process.env.STRAVA_SECRET,
-        refresh_token: process.env.STRAVA_REFRESH_TOKEN,
+client_id: process.env.STRAVA_CLIENT_ID,
+client_secret: process.env.STRAVA_SECRET,
+refresh_token: process.env.STRAVA_REFRESH_TOKEN,
 
-        "Authorization": "Token " + process.env.GITHUB_KEY
-    // followers
-    let url = "https://api.github.com/users/XXXXXXX/followers?per_page=100&page=1" // each page has 100 followers
+GITHUB_KEY=""
+GITHUB_USER=""
 
-    const url = "https://api.github.com/users/xxxxxxxxx/repos"
+// followers
+let url = "https://api.github.com/users/XXXXXXX/followers?per_page=100&page=1" // each page has 100 followers
 
-    var key = process.env.YOUTUBE_KEY
-    const response = await fetch('https://www.googleapis.com/youtube/v3/channels?part=statistics&id=xxxxxxxxxxxx&key=' + key)
+const url = "https://api.github.com/users/xxxxxxxxx/repos"
 
+YOUTUBE_KEY=""
+
+var key = process.env.YOUTUBE_KEY
+const response = await fetch('https://www.googleapis.com/youtube/v3/channels?part=statistics&id=xxxxxxxxxxxx&key=' + key)
+
+FIREBASE_CLIENT_EMAIL=
+FIREBASE_PROJECT_ID=
+FIREBASE_PRIVATE_KEY=
 
 const admin = require('firebase-admin')
 const firebasePrivateKey = process.env.FIREBASE_PRIVATE_KEY
@@ -42,6 +49,17 @@ try {
             project_id: process.env.FIREBASE_PROJECT_ID
         }),
         databaseURL: 'https://personal-website-XXXXXXX.firebaseio.com'
+
+GOOGLE_ADSENSE="ca-pub-XXXXXXXXXXXXXXX"
+GA_TRACKING_ID=""
+
+    {/* Google Adsense */}
+    <script data-ad-client="ca-pub-XXXXXXXXXXXXXXX" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    {/* Global Site Tag (gtag.js) - Google Analytics */}
+    <script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+
 
 ```
 
