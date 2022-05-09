@@ -1,5 +1,3 @@
-// export const GA_TRACKING_ID = 'UA-150381523-3'
-
 export const GA_TRACKING_ID = process.env.GA_TRACKING_ID;
 
 // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
